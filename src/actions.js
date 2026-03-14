@@ -21,27 +21,16 @@ async function login_allscripts(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Allscripts EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/login-allscripts`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('login_allscripts complete', result);
-      return result;
-
+      // TODO: Replace with actual Allscripts EHR selectors
+    // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/login-allscripts`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('login_allscripts complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-login_allscripts-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -61,27 +50,16 @@ async function search_patient(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Allscripts EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/search-patient`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('search_patient complete', result);
-      return result;
-
+      // TODO: Replace with actual Allscripts EHR selectors
+    // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/search-patient`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('search_patient complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-search_patient-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -101,27 +79,16 @@ async function document_note(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Allscripts EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/document-note`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('document_note complete', result);
-      return result;
-
+      // TODO: Replace with actual Allscripts EHR selectors
+    // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/document-note`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('document_note complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-document_note-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -141,27 +108,16 @@ async function prescribe_medication(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Allscripts EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/prescribe-medication`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('prescribe_medication complete', result);
-      return result;
-
+      // TODO: Replace with actual Allscripts EHR selectors
+    // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/prescribe-medication`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('prescribe_medication complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-prescribe_medication-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -181,27 +137,16 @@ async function schedule_appointment(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Allscripts EHR selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/schedule-appointment`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('schedule_appointment complete', result);
-      return result;
-
+      // TODO: Replace with actual Allscripts EHR selectors
+    // await page.goto(`${process.env.ALLSCRIPTS_URL}/path/to/schedule-appointment`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('schedule_appointment complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-schedule_appointment-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
