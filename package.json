@@ -1,7 +1,7 @@
 {
-  "name": "allscripts-ehr-browser-automation",
+  "name": "@browser-automation-hub/allscripts-ehr-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Allscripts EHR (Sunrise, Professional EHR, TouchWorks) — automate clinical documentation, patient scheduling, prescription management, and data extraction.",
+  "description": "Browser automation for Allscripts EHR — automate clinical documentation, scheduling, and prescription management",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -16,7 +16,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -35,5 +35,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/allscripts-ehr-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/allscripts-ehr-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
